@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Famemely</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+        Fa<span style="color:blueviolet">MEME</span>ly
+        <br><br>
+        <h3>வாழ்க்கை உங்களுக்கு பூகம்பங்கள் தந்தாள் நீங்கள் அதை பூ கம்பங்களாக மட்டுருங்கள் ..... எல்லாம் ஓரூ உட்டாலக்கடி</h3>
+
+        </div>
+
+        <div class="video-container">
+            <div class="video">
+                <video src="./media/m (1).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (2).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (3).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (4).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (5).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (6).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (7).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (8).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (9).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (10).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (11).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (12).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (13).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (14).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (15).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (16).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (17).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (18).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (19).mp4" ></video>
+            </div>            
+            <div class="video">
+                <video src="./media/m (20).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (21).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (22).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (23).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (24).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (25).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (26).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (27).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (29).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/m (30).mp4" ></video>
+            </div>
+            <div class="video">
+                <video src="./media/final.mp4" ></video>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var video = document.querySelectorAll('video');
+        video.forEach(play => play.addEventListener('click', () =>{
+        if (play.paused && !play.classList.contains('active')) {
+            play.play();
+        }else{
+            play.pause();
+            play.currentTime = 0;
+        }
+        play.classList.toggle('active');
+        }));
+
+    </script>
+</body>
+</html>
